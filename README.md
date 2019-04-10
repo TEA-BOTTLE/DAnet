@@ -1,6 +1,6 @@
 
 # Overview of DANet
-![](figs/fig1-1.png)
+![](figs/architecture_v10.pdf)
 
 # Train
 We finetune the DANet model on the ILSVRC dataset.  
@@ -14,7 +14,7 @@ cd scripts
 sh val_DA_cub.sh
 ```
 
-![](figs/imagenet-box-1.png)
+![](figs/imagenet_result1.pdf)
 
 ### Evolution of the activation maps during training on ILSVRC validation set.
-![](figs/show1-1.png)
+![](figs/timeline1.pdf)
